@@ -3,8 +3,9 @@ import'./index.css'
 const App = () => {
   return (
     <>
-      <h1 className='font-bold'>Marjon team</h1>
-      <h2>salom</h2>
+      <div className='general'>
+        <img className='w-[95%] h-[400px] m-[auto] rounded-[20px] ' src="./src/assets/images/img/logotip.jpg" alt="rasm" />
+      </div>
     </>
   )
 }
